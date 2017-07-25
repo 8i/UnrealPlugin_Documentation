@@ -19,5 +19,5 @@ Creating a build
 
 The HVR Plugin will automatically copy all data from the HVR directory when creating a build. This is done automatically
 
-> Note:
-Currently ALL data within the HVR folder will be packaged with the build. Packaging relevant data when building will come in an update.
+.. note::
+    Currently ALL data within the HVR folder will be packaged with the build. Packaging relevant data when building will come in an update.
