@@ -1,7 +1,7 @@
 Quick Start
 ===========
 
-Creating a HVRActor and rendering HVR data
+Creating a HVRActor
 ------------------------------------------
 
 1. Install the HVR plugin ( see Installation for steps )
@@ -13,6 +13,7 @@ Creating a HVRActor and rendering HVR data
 7. Select the HVRActor
 8. In the Details Panel, expand the HVRActor options, and then the HVRAsset options
 9. Type 'example_data' into the 'Data Name' slot of the HVRAsset and press enter
+10. The HVRActor will now appear in the scene
 
 Creating a build
 ----------------

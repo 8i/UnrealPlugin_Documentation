@@ -4,7 +4,7 @@ HVRAsset
 How To Create
 -------------
 
-An HVRAsset is created automatically for an HVRActor when it is created. You will likely not need to manually create one.
+When an HVRActor is created it will automatically created and be assigned an HVRAsset.
 
 Parameters
 ----------
@@ -14,7 +14,7 @@ Parameters
     ie: If the parameter is set to 'tiger' the path to load will be: "PROJECT_ROOT\HVR\tiger\"
 
 **Play on Awake**
-    Should this Asset begin playing as soon as it is created?
+    Should this HVRAsset begin playing as soon as it is created?
 
 **Loop**
     Should this HVRAsset loop?
