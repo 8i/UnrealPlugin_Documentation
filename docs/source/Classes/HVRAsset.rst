@@ -18,3 +18,25 @@ Parameters
 
 **Loop**
     Should this HVRAsset loop?
+
+Blueprint
+---------
+
+Properties
+.. code-block:: c
+    None Exposed
+
+Functions
+.. code-block:: c
+
+    void    Play();
+    void    Pause();
+    void    Seek(float time);
+    void    Step(int frames);
+    void    ResetPlayback();
+    void    SetLooping(bool looping);
+    float   GetCurrentTime();
+    float   GetDuration();
+    bool    IsPlaying();
+    bool    IsSeeking();
+    bool    IsLooping();

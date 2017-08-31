@@ -23,3 +23,20 @@ Parameters
         - Renders faster than PointBlend
     - Point Blend
         - Renders the actor with smooth points which soften the look of the actor
+
+Blueprint
+---------
+
+Properties
+.. code-block:: c
+
+    UHVRAsset* hvrAsset;
+    TEnumAsByte<ERenderMethod::Type> renderMethod;
+
+Functions
+.. code-block:: c
+
+    void GetBounds(FVector& center, FVector& size);
+    void GetAABB(FVector& center, FVector& size);
+    void SetRenderMethod(TEnumAsByte<ERenderMethod::Type> newRenderMethod);
+    
