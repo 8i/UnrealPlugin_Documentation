@@ -17,6 +17,7 @@ Contents:
 
    Installation
    Quick Start
+   Examples
    Classes/index
    Troubleshooting
    Support
