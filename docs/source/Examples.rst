@@ -27,7 +27,7 @@ Creating HVRActor Blueprints
 - **Useful Unreal Documentation links**
     - `Blueprints`_
 
-**Example Map*** Blueprint
+**Example Map** Blueprint
 
 A simple example which shows how blueprint can be used to call functions on HVRActor and HVRAsset
 
