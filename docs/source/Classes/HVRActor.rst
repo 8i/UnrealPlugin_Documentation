@@ -1,5 +1,6 @@
+##################
 HVRActor
-========
+##################
 
 HVRActor is the main object you will be interacting with from the 8i Unreal Plugin.
 
@@ -27,13 +28,15 @@ Parameters
 Blueprint
 ---------
 
-Properties
+**Properties**
+
 .. code-block:: c
 
     UHVRAsset* hvrAsset;
     TEnumAsByte<ERenderMethod::Type> renderMethod;
 
-Functions
+**Functions**
+
 .. code-block:: c
 
     void GetBounds(FVector& center, FVector& size);

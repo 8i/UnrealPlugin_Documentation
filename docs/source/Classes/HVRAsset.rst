@@ -1,5 +1,6 @@
+##################
 HVRAsset
-========
+##################
 
 How To Create
 -------------
@@ -22,11 +23,14 @@ Parameters
 Blueprint
 ---------
 
-Properties
+**Properties**
+
 .. code-block:: c
+
     None Exposed
 
-Functions
+**Functions**
+
 .. code-block:: c
 
     void    Play();
