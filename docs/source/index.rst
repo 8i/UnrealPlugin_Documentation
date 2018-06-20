@@ -2,7 +2,7 @@
 =============================
 
     **Requirements**
-        - Unreal 4.16.2
+        - Unreal 4.19.2
 
     **Supported Platforms**
         - Windows X64

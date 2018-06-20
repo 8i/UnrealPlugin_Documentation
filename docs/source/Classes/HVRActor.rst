@@ -3,22 +3,31 @@ HVRActor
 
     HVRActor is the main object you will be interacting with from the 8i Unreal Plugin.
 
-    A HVRActor can be assigned a HVRAsset and used to render HVR content.
+    A HVRActor can specify a data URI and be used to render HVR content.
 
 How To Create
 -------------
 
-    1. Create a new HVRSound object by searching for it in the Classes window.
+    1. Create a new HVRActor object by searching for it in the Classes window.
     2. See HVRAsset for details about how to assign data
 
 Parameters
 ----------
 
-    **HVRAsset**
-        The HVRAsset object which this HVRActor is assigned.
+	**Data URI**
+        This parameter is a string and is the name of the folder within the projects 'HVR' folder this HVRActor should load.
+        ie: If the parameter is set to 'tiger' the path to load will be: "PROJECT_ROOT/HVR/tiger/"
+
+	**Play on Awake**
+        Should this HVR begin playing as soon as it is created?
+
+    **Loop**
+        Should this HVR loop?
 
     **Render Method**
-        - Point Sprite [ Default ]
+    	- FastCubes [Default]
+    		- The recommended way for rendering content.
+        - Point Sprite
             - Renders the actor with hard edges.
             - Renders faster than PointBlend
         - Point Blend
