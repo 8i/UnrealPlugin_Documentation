@@ -4,7 +4,8 @@ Installation
 Installation
 ------------
 
-    1. Create a new Unreal project
+    1. Create a new Unreal project(C++ project). If you happened to have a Blueprint only project, go to 1b. Otherwise go to 2.
+    1b. In Blueprint only project, under menu File -> New C++ Class -> None -> Name: MyDummy(or any class name you like), and leave other fields intact. After clicking "Create Class" button, Unreal will generate a class and a build system along with that.
     2. Close the Unreal Editor
     3. If one does not already exist, create a new folder in your project and name it 'Plugins'
     4. Copy the 'HVR' folder from the downloaded build and copy into the 'Plugins' folder
