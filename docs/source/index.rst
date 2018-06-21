@@ -1,22 +1,8 @@
-8i Unreal Plugin documentation
-=============================
+About
+=====
+The 8i Unreal Plugin allows developers to add 8i’s fully volumetric video to any Unreal experience. It’s like embedding traditional 2D video content, except you get to walk around ours as it plays! 
 
-    **Requirements**
-        - Unreal 4.16.2
+Versions
+--------
 
-    **Supported Platforms**
-        - Windows X64
-
-    **Supported Rendering API**
-        - DX11
-
-    Contents:
-
-    .. toctree::
-        :maxdepth: 1
-
-        Installation
-        Quick Start
-        Classes/index
-        Troubleshooting
-        Support
+    - `0.2.0 <https://8iunrealplugin.readthedocs.io/en/0.2/>`_

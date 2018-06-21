@@ -148,7 +148,7 @@ html_theme = 'guzzle_sphinx_theme'
 # Guzzle theme options (see theme.conf for more information)
 html_theme_options = {
     # Set the name of the project to appear in the sidebar
-    "project_nav_name": "Unity Plugin Documentation",
+    "project_nav_name": "Unreal Plugin Documentation",
 }
 
 # Default to production for now so at least it will always work in production.
@@ -408,7 +408,7 @@ texinfo_documents = [
 # See the potential at http://recommonmark.readthedocs.io/en/latest/auto_structify.html
 def setup(app):
     app.add_config_value('recommonmark_config', {
-        'url_resolver': lambda url: 'https://github.com/8i/UnityPlugin_Documentation/' + url,
+        'url_resolver': lambda url: 'https://github.com/8i/UnrealPlugin_Documentation/' + url,
         'auto_toc_tree_section': 'Contents',
         'enable_auto_toc_tree': True,
         'enable_auto_doc_ref': True,
